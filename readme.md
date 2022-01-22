@@ -1,3 +1,4 @@
+
 # Extended Migration Generators for Laravel 6, 7 and 8
 
 <a href="https://packagist.org/packages/laracasts/generators" title="Latest Version on Packagist"><img src="https://img.shields.io/packagist/v/laracasts/generators.svg?style=flat-square"></a>
