@@ -1,8 +1,8 @@
 <?php
 
-namespace Laracasts\Generators\Migrations;
+namespace VirX\Generators\Migrations;
 
-use Laracasts\Generators\GeneratorException;
+use VirX\Generators\GeneratorException;
 
 class SyntaxBuilder
 {

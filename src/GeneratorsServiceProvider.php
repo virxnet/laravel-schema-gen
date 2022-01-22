@@ -1,6 +1,6 @@
 <?php
 
-namespace Laracasts\Generators;
+namespace VirX\Generators;
 
 use Illuminate\Support\ServiceProvider;
 
@@ -33,7 +33,7 @@ class GeneratorsServiceProvider extends ServiceProvider
     private function registerMigrationGenerator()
     {
         $this->app->singleton('command.laracasts.migrate', function ($app) {
-            return $app['Laracasts\Generators\Commands\MigrationMakeCommand'];
+            return $app['VirX\Generators\Commands\MigrationMakeCommand'];
         });
 
         $this->commands('command.laracasts.migrate');
@@ -45,7 +45,7 @@ class GeneratorsServiceProvider extends ServiceProvider
     private function registerPivotMigrationGenerator()
     {
         $this->app->singleton('command.laracasts.migrate.pivot', function ($app) {
-            return $app['Laracasts\Generators\Commands\PivotMigrationMakeCommand'];
+            return $app['VirX\Generators\Commands\PivotMigrationMakeCommand'];
         });
 
         $this->commands('command.laracasts.migrate.pivot');

@@ -1,6 +1,6 @@
 <?php
 
-namespace spec\Laracasts\Generators\Migrations;
+namespace spec\VirX\Generators\Migrations;
 
 use PhpSpec\ObjectBehavior;
 
@@ -8,7 +8,7 @@ class NameParserSpec extends ObjectBehavior
 {
     function it_is_initializable()
     {
-        $this->shouldHaveType('Laracasts\Generators\Migrations\NameParser');
+        $this->shouldHaveType('VirX\Generators\Migrations\NameParser');
     }
 
     function it_parses_a_migration_name_into_an_array()

@@ -1,6 +1,6 @@
 <?php
 
-namespace Laracasts\Generators;
+namespace VirX\Generators;
 
 class GeneratorException extends \Exception
 {

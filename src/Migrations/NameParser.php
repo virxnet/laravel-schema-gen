@@ -1,6 +1,6 @@
 <?php
 
-namespace Laracasts\Generators\Migrations;
+namespace VirX\Generators\Migrations;
 
 class NameParser
 {

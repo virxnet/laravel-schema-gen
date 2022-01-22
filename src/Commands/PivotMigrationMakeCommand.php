@@ -1,6 +1,6 @@
 <?php
 
-namespace Laracasts\Generators\Commands;
+namespace VirX\Generators\Commands;
 
 use Illuminate\Console\GeneratorCommand;
 use Illuminate\Support\Str;

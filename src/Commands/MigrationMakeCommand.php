@@ -1,14 +1,14 @@
 <?php
 
-namespace Laracasts\Generators\Commands;
+namespace VirX\Generators\Commands;
 
 use Illuminate\Console\Command;
 use Illuminate\Container\Container;
 use Illuminate\Filesystem\Filesystem;
 use Illuminate\Support\Str;
-use Laracasts\Generators\Migrations\NameParser;
-use Laracasts\Generators\Migrations\SchemaParser;
-use Laracasts\Generators\Migrations\SyntaxBuilder;
+use VirX\Generators\Migrations\NameParser;
+use VirX\Generators\Migrations\SchemaParser;
+use VirX\Generators\Migrations\SyntaxBuilder;
 use Symfony\Component\Console\Input\InputOption;
 use Symfony\Component\Console\Input\InputArgument;
 

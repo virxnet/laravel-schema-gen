@@ -1,6 +1,6 @@
 {
-  "name": "laracasts/generators",
-  "description": "Advanced Laravel generators, that include schema information.",
+  "name": "virx/laravel-schema-gen",
+  "description": "Advanced Laravel generators, that include schema information. (fork of laracasts/generators)",
   "keywords": ["laravel", "generators"],
   "license": "MIT",
   "authors": [
@@ -11,6 +11,10 @@
     {
       "name": "Cristian Tabacitu",
       "email": "hello@tabaciu.ro"
+    },
+    {
+      "name": "Antony Peiris",
+      "email": "asp@virx.net"
     }
   ],
   "require": {
@@ -21,7 +25,7 @@
   },
   "autoload": {
     "psr-4": {
-      "Laracasts\\Generators\\": "src/"
+      "VirX\\Generators\\": "src/"
     }
   },
   "scripts": {
@@ -30,7 +34,7 @@
   "extra": {
       "laravel": {
           "providers": [
-              "Laracasts\\Generators\\GeneratorsServiceProvider"
+              "VirX\\Generators\\GeneratorsServiceProvider"
           ]
       }
   }
