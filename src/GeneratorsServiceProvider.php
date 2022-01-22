@@ -32,11 +32,11 @@ class GeneratorsServiceProvider extends ServiceProvider
      */
     private function registerMigrationGenerator()
     {
-        $this->app->singleton('command.laracasts.migrate', function ($app) {
+        $this->app->singleton('command.VirX.migrate', function ($app) {
             return $app['VirX\Generators\Commands\MigrationMakeCommand'];
         });
 
-        $this->commands('command.laracasts.migrate');
+        $this->commands('command.VirX.migrate');
     }
 
     /**
@@ -44,10 +44,10 @@ class GeneratorsServiceProvider extends ServiceProvider
      */
     private function registerPivotMigrationGenerator()
     {
-        $this->app->singleton('command.laracasts.migrate.pivot', function ($app) {
+        $this->app->singleton('command.VirX.migrate.pivot', function ($app) {
             return $app['VirX\Generators\Commands\PivotMigrationMakeCommand'];
         });
 
-        $this->commands('command.laracasts.migrate.pivot');
+        $this->commands('command.VirX.migrate.pivot');
     }
 }
